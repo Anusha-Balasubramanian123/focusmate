@@ -1,0 +1,6 @@
+{
+  "name": "FocusMate",
+  "description": "Mobile productivity and consistency companion to plan, focus, and finish.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

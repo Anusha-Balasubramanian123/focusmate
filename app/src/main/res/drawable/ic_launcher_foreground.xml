@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Outer Focus Target Ring (Centered at 54, 54, safe area within 66dp) -->
+    <path
+        android:pathData="M54,30 A24,24 0 1,0 54.001,30 Z"
+        android:strokeWidth="3.2"
+        android:strokeColor="#FFBF00"
+        android:fillColor="#00000000" />
+
+    <!-- Secondary Focus Orbit Ring -->
+    <path
+        android:pathData="M54,39 A15,15 0 1,0 54.001,39 Z"
+        android:strokeWidth="2"
+        android:strokeColor="#66FFBF00"
+        android:fillColor="#00000000" />
+
+    <!-- Center Glowing Flame / Core Spark -->
+    <path
+        android:pathData="M54,44 C52,48 48,51 48,56 C48,60 50.7,63 54,63 C57.3,63 60,60 60,56 C60,51 56,48 54,44 Z"
+        android:fillColor="#FFBF00" />
+
+    <!-- Flame inner highlight -->
+    <path
+        android:pathData="M54,50 C53,52.5 51,54 51,57 C51,59 52.3,60.5 54,60.5 C55.7,60.5 57,59 57,57 C57,54 55,52.5 54,50 Z"
+        android:fillColor="#FFF5DB" />
+
+    <!-- Crosshair ticks for precision focus vibe -->
+    <path
+        android:pathData="M54,23 L54,27 M54,81 L54,85 M23,54 L27,54 M81,54 L85,54"
+        android:strokeWidth="2.8"
+        android:strokeColor="#FFBF00"
+        android:strokeLineCap="round" />
+</vector>
